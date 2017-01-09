@@ -26,7 +26,9 @@ describe UsersController do
         end
       end
       
-      it "should be successful" do
+
+
+      it "shouldd be successful" do
         get :index
         response.should be_success
       end
