@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Checkout') {
+    stage('ShellCommand') {
       steps {
         sh 'ls -l'
       }
